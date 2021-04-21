@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_reply"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".ReplyActivity"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/reply_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f3f3f3"
+        android:paddingTop="10.0dip"
+        android:paddingBottom="10.0dip">
+
+        <EditText
+            android:id="@+id/et_reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toLeftOf="@+id/iv_reply_send"
+            android:hint="Enter Message"
+            android:maxLines="3"
+            android:scrollbars="vertical" />
+
+        <ImageView
+            android:id="@+id/iv_reply_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/et_reply"
+            android:layout_alignBottom="@+id/et_reply"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginBottom="1px"
+            android:paddingLeft="10dp"
+            android:paddingTop="5.0dip"
+            android:paddingRight="10dp"
+            android:paddingBottom="5.0dip"
+            android:src="@drawable/ic_reply_send2" />
+    </RelativeLayout>
+
+</LinearLayout>

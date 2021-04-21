@@ -1,0 +1,34 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+                                                                                                                     
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/nomad?serverTimezone=Asia/Seoul
+    username: nomad
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update  #create update none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+ 
+  servlet:    multipart:      max-file-size: 10MB      max-request-size: 10MB
+      enabled: true           
+file:
+  path: C:/Users/Dong/Desktop/NomadWork/nomadCloneProject-bachend/src/main/resources/uploads/
+

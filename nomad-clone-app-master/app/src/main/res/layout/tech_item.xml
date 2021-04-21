@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="90dp"
+    android:layout_height="wrap_content">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iv_dashboard_tech"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/test"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:riv_border_color="@color/white"
+        app:riv_border_width="3dip"
+        app:riv_corner_radius="40dip" />
+
+    <ImageView
+        android:id="@+id/iv_tech_lock"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/circle_button"
+        android:backgroundTint="@color/black"
+        android:padding="5dp"
+        android:elevation="1dp"
+        android:src="@drawable/ic_white_lock"
+        app:layout_constraintEnd_toEndOf="@+id/iv_dashboard_tech"
+        app:layout_constraintStart_toStartOf="@+id/iv_dashboard_tech"
+        app:layout_constraintTop_toTopOf="@+id/iv_dashboard_tech" />
+
+    <TextView
+        android:id="@+id/tv_tech_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/corner_round"
+        android:backgroundTint="#E3E3E3"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="CSS Layout"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/iv_dashboard_tech"
+        app:layout_constraintStart_toStartOf="@+id/iv_dashboard_tech"
+        app:layout_constraintTop_toTopOf="@+id/iv_tech_lock" />
+</androidx.constraintlayout.widget.ConstraintLayout>

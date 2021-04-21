@@ -1,0 +1,46 @@
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/video_toolbar"
+    android:background="#374151"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    app:contentInsetStart="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btn_video_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#d1d5db"
+            android:src="@drawable/ic_video_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_show"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#6b7280"
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:text="  Show Sidebar"
+            android:textAllCaps="false"
+            android:paddingRight="20dp"
+            android:paddingLeft="10dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_video_back"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.Toolbar>

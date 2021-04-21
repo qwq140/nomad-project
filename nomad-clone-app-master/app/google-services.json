@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "130489001036",
+    "project_id": "nomadapp-4903d",
+    "storage_bucket": "nomadapp-4903d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130489001036:android:93305f17eafef5d964c0e9",
+        "android_client_info": {
+          "package_name": "com.cos.nomadapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130489001036-s92snsagf3jl8krgpb46arjhigmpm9dk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cos.nomadapp",
+            "certificate_hash": "4737103150bcaf121023e1b8ee816f5c02ae2d47"
+          }
+        },
+        {
+          "client_id": "130489001036-oe6qodcnfr3itlfq143ptnt6klkbual5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtNrhqdAV6aZ9dUKHodreu4ZwVE5Yj8ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130489001036-oe6qodcnfr3itlfq143ptnt6klkbual5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
